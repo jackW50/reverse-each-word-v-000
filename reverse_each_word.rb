@@ -1,4 +1,4 @@
-string_2 = "Hello how are you?"
+# string_2 = "Hello how are you?"
 def reverse_each_word(string)
   array = string.split(" ")
   array.collect do |element|
@@ -7,4 +7,4 @@ def reverse_each_word(string)
   .join(" ")
 end 
 
-puts "#{reverse_each_word(string_2)}"
+# puts "#{reverse_each_word(string_2)}"
