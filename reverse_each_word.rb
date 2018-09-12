@@ -1,4 +1,4 @@
-string = "Hello how are you?"
+string_2 = "Hello how are you?"
 def reverse_each_word(string)
   array = string.split(" ")
   array.collect do |element|
@@ -6,3 +6,5 @@ def reverse_each_word(string)
   end
   .join(" ")
 end 
+
+reverse_each_word(string_2)
